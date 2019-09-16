@@ -1,13 +1,39 @@
+*
 body {
   margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:url("./assets/defualt_bg.png");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@media (max-width: 992px){
+  body{
+    
+    background-position:left;
+      
+  }
+  
+}
+/* @media (max-width: 576px){
+  .front-end,
+  .back-end,
+  .other{
+      box-shadow: none;
+      margin: 5px;
+       
+  }
+  
+} */
